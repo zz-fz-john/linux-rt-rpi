@@ -44,7 +44,7 @@
 			device_type = "cpu";
 			compatible = "arm,cortex-a53";
 			reg = <0>;
-			enable-method = "spin-table";
+			enable-method = "psci";
 			cpu-release-addr = <0x0 0x000000d8>;
 		};
 
@@ -52,7 +52,7 @@
 			device_type = "cpu";
 			compatible = "arm,cortex-a53";
 			reg = <1>;
-			enable-method = "spin-table";
+			enable-method = "psci";
 			cpu-release-addr = <0x0 0x000000e0>;
 		};
 
@@ -60,7 +60,7 @@
 			device_type = "cpu";
 			compatible = "arm,cortex-a53";
 			reg = <2>;
-			enable-method = "spin-table";
+			enable-method = "psci";
 			cpu-release-addr = <0x0 0x000000e8>;
 		};
 
@@ -68,10 +68,15 @@
 			device_type = "cpu";
 			compatible = "arm,cortex-a53";
 			reg = <3>;
-			enable-method = "spin-table";
+			enable-method = "psci";
 			cpu-release-addr = <0x0 0x000000f0>;
 		};
 	};
+	psci {
+		compatible = "arm,psci-1.0", "arm,psci-0.2";
+		method = "smc";
+	};
+
 };
 
 /* Make the BCM2835-style global interrupt controller be a child of the

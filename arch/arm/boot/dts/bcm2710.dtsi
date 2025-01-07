@@ -7,6 +7,16 @@
 	arm-pmu {
 		compatible = "arm,cortex-a53-pmu", "arm,cortex-a7-pmu";
 	};
+	firmware {
+		optee {
+			compatible = "linaro,optee-tz";
+			method = "smc";
+		};
+	};
+	psci {
+		compatible = "arm,psci-0.2";
+		method = "smc";
+	};
 
 	soc {
 		/delete-node/ timer@7e003000;
