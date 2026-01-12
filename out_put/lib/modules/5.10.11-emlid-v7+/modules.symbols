@@ -492,6 +492,7 @@ alias symbol:mwifiex_process_hs_config mwifiex
 alias symbol:br_fdb_clear_offload bridge
 alias symbol:mtd_writev mtd
 alias symbol:nf_xfrm_me_harder nf_nat
+alias symbol:rcio_state rcio_core
 alias symbol:vb2_dqbuf videobuf2_v4l2
 alias symbol:dm_bitset_clear_bit dm_persistent_data
 alias symbol:drm_simple_display_pipe_attach_bridge drm_kms_helper
@@ -851,6 +852,7 @@ alias symbol:v4l2_clk_unregister videodev
 alias symbol:dm_cell_error dm_bio_prison
 alias symbol:snd_info_register snd
 alias symbol:dm_snap_origin dm_snapshot
+alias symbol:rcio_pwm_probe rcio_core
 alias symbol:nfc_dep_link_is_up nfc
 alias symbol:rt2800_wait_wpdma_ready rt2800lib
 alias symbol:drm_gem_dmabuf_mmap drm
@@ -1444,6 +1446,7 @@ alias symbol:iforce_init_device iforce
 alias symbol:l2tp_tunnel_get_nth l2tp_core
 alias symbol:mtd_ooblayout_count_freebytes mtd
 alias symbol:nf_log_dump_sk_uid_gid nf_log_common
+alias symbol:rcio_pwm_remove rcio_core
 alias symbol:dapm_kcontrol_get_value snd_soc_core
 alias symbol:gether_get_host_addr u_ether
 alias symbol:bcma_pmu_spuravoid_pllupdate bcma
@@ -1500,6 +1503,7 @@ alias symbol:usbnet_cdc_update_filter cdc_ether
 alias symbol:xt_target_to_user x_tables
 alias symbol:can_len2dlc can_dev
 alias symbol:snd_soc_bytes_info_ext snd_soc_core
+alias symbol:rcio_gpio_update rcio_core
 alias symbol:wm_adsp_compr_copy snd_soc_wm_adsp
 alias symbol:btbcm_check_bdaddr btbcm
 alias symbol:drm_atomic_helper_plane_destroy_state drm_kms_helper
@@ -1713,6 +1717,7 @@ alias symbol:rtl92c_phy_sw_chnl rtl8192c_common
 alias symbol:sha256_update libsha256
 alias symbol:snd_dmaengine_pcm_request_channel snd_pcm_dmaengine
 alias symbol:wimax_msg_data_len wimax
+alias symbol:rcio_adc_update rcio_core
 alias symbol:register_ip_vs_app_inc ip_vs
 alias symbol:ieee80211_rx_irqsafe mac80211
 alias symbol:ip_tunnel_init ip_tunnel
@@ -1760,6 +1765,7 @@ alias symbol:brcmu_dotrev_str brcmutil
 alias symbol:mt76x02_remove_interface mt76x02_lib
 alias symbol:snd_soc_dai_set_bclk_ratio snd_soc_core
 alias symbol:atm_proc_root atm
+alias symbol:rcio_safety_probe rcio_core
 alias symbol:reg_initiator_name cfg80211
 alias symbol:zs_pool_stats zsmalloc
 alias symbol:drm_fb_helper_blank drm_kms_helper
@@ -2329,6 +2335,7 @@ alias symbol:cfg80211_chandef_compatible cfg80211
 alias symbol:af_alg_async_cb af_alg
 alias symbol:nft_meta_set_validate nf_tables
 alias symbol:snd_soc_put_enum_double snd_soc_core
+alias symbol:rcio_rcin_update rcio_core
 alias symbol:ath9k_hw_gen_timer_stop ath9k_hw
 alias symbol:config_ep_by_speed libcomposite
 alias symbol:ieee80211_txq_may_transmit mac80211
@@ -2361,6 +2368,7 @@ alias symbol:cma3000_suspend cma3000_d0x
 alias symbol:xt_unregister_targets x_tables
 alias symbol:ieee80211_tdls_oper_request mac80211
 alias symbol:iscsi_tcp_conn_get_stats libiscsi_tcp
+alias symbol:rcio_adc_probe rcio_core
 alias symbol:ath9k_hw_set_gpio ath9k_hw
 alias symbol:ip_tunnel_setup ip_tunnel
 alias symbol:mtd_del_partition mtd
@@ -2555,6 +2563,7 @@ alias symbol:roccat_common2_sysfs_write hid_roccat_common
 alias symbol:__serio_register_port serio
 alias symbol:fbtft_write_buf_dc fbtft
 alias symbol:ip6_tnl_xmit_ctl ip6_tunnel
+alias symbol:rcio_probe rcio_core
 alias symbol:snd_info_get_line snd
 alias symbol:v4l2_m2m_ioctl_streamoff v4l2_mem2mem
 alias symbol:drm_mode_create_tv_margin_properties drm
@@ -2776,6 +2785,7 @@ alias symbol:drm_lspcon_set_mode drm_kms_helper
 alias symbol:__drm_atomic_helper_crtc_duplicate_state drm_kms_helper
 alias symbol:__traceiter_vb2_v4l2_qbuf videodev
 alias symbol:drm_atomic_helper_update_legacy_modeset_state drm_kms_helper
+alias symbol:rcio_gpio_remove rcio_core
 alias symbol:usb_gadget_vbus_draw udc_core
 alias symbol:au8522_release_state au8522_common
 alias symbol:dib0090_fw_register dib0090
@@ -3772,6 +3782,7 @@ alias symbol:o2nm_node_get ocfs2_nodemanager
 alias symbol:aic32x4_regmap_config snd_soc_tlv320aic32x4
 alias symbol:lnbp22_attach lnbp22
 alias symbol:mwifiex_drv_info_dump mwifiex
+alias symbol:rcio_pwm_update rcio_core
 alias symbol:snd_soc_component_async_complete snd_soc_core
 alias symbol:xt_tee_enabled x_tables
 alias symbol:v4l2_async_unregister_subdev videodev
@@ -3897,6 +3908,7 @@ alias symbol:drm_property_create_blob drm
 alias symbol:media_remove_intf_link mc
 alias symbol:xt_check_match x_tables
 alias symbol:ip_tunnel_encap_add_ops ip_tunnel
+alias symbol:rcio_rcin_probe rcio_core
 alias symbol:ieee80211_nan_func_match mac80211
 alias symbol:cx24113_agc_callback cx24113
 alias symbol:rt2x00queue_flush_queue rt2x00lib
@@ -4228,6 +4240,7 @@ alias symbol:dvb_frontend_resume dvb_core
 alias symbol:__traceiter_vb2_buf_done videobuf2_common
 alias symbol:hci_register_dev bluetooth
 alias symbol:ieee80211_iter_keys mac80211
+alias symbol:rcio_safety_update rcio_core
 alias symbol:register_mtd_blktrans mtd_blkdevs
 alias symbol:ip6_tnl_get_link_net ip6_tunnel
 alias symbol:ip_tunnel_xmit ip_tunnel
@@ -4789,12 +4802,14 @@ alias symbol:snd_soc_of_get_slot_mask snd_soc_core
 alias symbol:ezusb_fx1_ihex_firmware_download ezusb
 alias symbol:iio_trigger_alloc industrialio
 alias symbol:add_mtd_blktrans_dev mtd_blkdevs
+alias symbol:rcio_remove rcio_core
 alias symbol:br_multicast_router bridge
 alias symbol:btintel_reset_to_bootloader btintel
 alias symbol:open_candev can_dev
 alias symbol:p9_client_disconnect 9pnet
 alias symbol:dm_array_cursor_next dm_persistent_data
 alias symbol:lc_seq_printf_stats lru_cache
+alias symbol:rcio_status_update rcio_core
 alias symbol:snd_compress_new snd_compress
 alias symbol:v4l2_querymenu videodev
 alias symbol:ath_bus_type_strings ath
@@ -4871,6 +4886,7 @@ alias symbol:unregister_ip_vs_pe ip_vs
 alias symbol:usb_ep_set_wedge udc_core
 alias symbol:arizona_rate_val snd_soc_arizona
 alias symbol:dm_suspended dm_mod
+alias symbol:rcio_status_probe rcio_core
 alias symbol:simd_aead_create_compat crypto_simd
 alias symbol:snd_soc_card_jack_new snd_soc_core
 alias symbol:ath_rxbuf_alloc ath
@@ -5472,6 +5488,7 @@ alias symbol:drm_mm_scan_init_with_range drm
 alias symbol:iscsi_eh_session_reset libiscsi
 alias symbol:ZSTD_initCStream_usingCDict zstd_compress
 alias symbol:drm_get_format_info drm
+alias symbol:rcio_gpio_probe rcio_core
 alias symbol:xfrm6_input_addr ipv6
 alias symbol:xt_data_to_user x_tables
 alias symbol:__gameport_register_driver gameport

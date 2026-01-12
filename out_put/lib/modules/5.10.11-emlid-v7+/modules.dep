@@ -138,6 +138,8 @@ kernel/lib/crc7.ko:
 kernel/lib/crc8.ko:
 kernel/lib/zlib_deflate/zlib_deflate.ko:
 kernel/lib/raid6/raid6_pq.ko:
+kernel/lib/rcio/rcio_core.ko:
+kernel/lib/rcio/rcio_spi.ko: kernel/lib/rcio/rcio_core.ko
 kernel/lib/ts_kmp.ko:
 kernel/lib/ts_bm.ko:
 kernel/lib/ts_fsm.ko:

@@ -201,6 +201,7 @@ alias crypto-essiv essiv
 alias essiv essiv
 alias crypto-ecdh ecdh_generic
 alias ecdh ecdh_generic
+alias spi:rcio rcio_spi
 alias i2c:mcp23018 pinctrl_mcp23s08_i2c
 alias i2c:mcp23017 pinctrl_mcp23s08_i2c
 alias i2c:mcp23008 pinctrl_mcp23s08_i2c
